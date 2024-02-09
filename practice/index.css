@@ -1,0 +1,36 @@
+.home{
+    background-color: rgb(233, 202, 249);
+    width: 500px;
+    height: 280px;
+    margin: 15%;
+    padding: 3%;
+    border-style: double;
+    border-color: blueviolet;
+    border-radius: 5%;
+    border-width: 8px;
+    
+}
+#box{
+    text-align: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.home img{
+    height: 140px;
+    margin: auto;
+    display: block;
+    border-radius: 3px;
+}
+#background {
+        content: "";
+        border-radius: 5%;
+        position: absolute;
+        background: url('../background.jpg');
+        width: 511px;
+        height: 292px;
+        margin: 0%;
+        padding: 3%;
+        right:45.1%;
+        opacity: 0.2;
+}
