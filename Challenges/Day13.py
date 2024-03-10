@@ -5,7 +5,7 @@ def lengthOfLongestSubstring(s):
         if s[i] in d and start <= d[s[i]]:
             start = d[s[i]] +1
         else:
-            max_length = max(max_length, i-start +1)
+            max_length = max(max_length, i- start +1)
         d[s[i]] = i
     return max_length
 
