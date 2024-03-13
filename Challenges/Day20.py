@@ -12,5 +12,5 @@ def firstBadVersion(n):
     return l
 
 n = 5
-bad = 4
+bad = 1
 print(firstBadVersion(n))
