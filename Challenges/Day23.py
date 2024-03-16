@@ -13,7 +13,7 @@ def reverseOnlyLetters(s):
                 r-=1
         else:
             l+=1
-    return ''.join(s)
+    return ''.join(s)   # Convert the list back to a string
 
 s = "ab-cd"
 print(reverseOnlyLetters(s))
