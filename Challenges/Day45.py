@@ -1,9 +1,8 @@
 def findPeakElement(nums):
-    n = len(nums)-1
-    for i in range(0,n):
+    for i in range(0,len(nums)-1):
         if nums[i] > nums[i+1]:
             return i
-    return n
-            
-nums = [5,6,9,3,1]
+    return len(nums)-1
+
+nums = [1,2,3,5,6,4]
 print(findPeakElement(nums))
