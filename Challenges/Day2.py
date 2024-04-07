@@ -11,3 +11,14 @@ class Solution:
             elif nums[i]==nums[j]:
                 j+=1
         return i+1
+
+
+def removeDuplicate(nums):
+    a = []
+    for i in nums:
+        if i not in a:
+            a.append(i)
+    return a
+
+nums = [0,0,1,1,1,2,2,3,3,4]
+print(removeDuplicate(nums))
