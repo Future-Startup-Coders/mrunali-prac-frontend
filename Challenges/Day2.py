@@ -13,6 +13,7 @@ class Solution:
         return i+1
 
 
+
 def removeDuplicate(nums):
     a = []
     for i in nums:
