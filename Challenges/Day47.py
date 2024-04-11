@@ -9,3 +9,14 @@ def rotateString(s, goal):
 s = "abcde"
 goal = "cdeab"
 print(rotateString(s,goal))
+
+def rotateString(s, goal):
+        if len(goal) != len(s):
+            return False
+            
+        s+=s[:-1]
+        return goal in s
+
+s = "abcde"
+goal = "cdeab"
+print(rotateString(s,goal))
