@@ -8,3 +8,5 @@ def return_indices(nums, target):
 nums= [2,7,11,15]
 target = 9
 print("Output: ", return_indices(nums,target))
+
+
